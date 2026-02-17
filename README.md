@@ -45,7 +45,6 @@ This system uses a **two-agent design**:
 - ├── train_model.py # Script to train model
 - ├── requirements.txt # All project dependencies
 - ├── README.md # This file
-- └── .gitignore # Ignore API keys, pycache, env
 
 ## Installation
 - Install dependencies: pip install -r requirements.txt
