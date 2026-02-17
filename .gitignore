@@ -2,12 +2,13 @@
 __pycache__/
 *.pyc
 
-# Environment variables
+# Environment variables / API keys
 .env
 *.env
 .env.txt
 
-# ML model (optional if large)
+# ML models (optional, hide .pkl files)
+model/*.pkl
 *.pkl
 
 # IDE / system files
