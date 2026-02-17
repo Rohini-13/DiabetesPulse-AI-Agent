@@ -23,10 +23,10 @@ This system uses a **two-agent design**:
 
 **Workflow:**
 
-- User Input (Age, Glucose, BP, Pregnancies) 
--  Prediction Agent (ML Model)
--  Explanation Agent (Gemini API)
--  Streamlit UI Display
+- ├──User Input (Age, Glucose, BP, Pregnancies) 
+- ├── Prediction Agent (ML Model)
+- ├── Explanation Agent (Gemini API)
+- ├──Streamlit UI Display
 
 ## Tech Stack
 - Python
@@ -44,7 +44,7 @@ This system uses a **two-agent design**:
 - ├── app.py # Streamlit app
 - ├── train_model.py # Script to train model
 - ├── requirements.txt # All project dependencies
-  - ├── README.md # This file
+- ├── README.md # This file
 - └── .gitignore # Ignore API keys, pycache, env
 
 ## Installation
