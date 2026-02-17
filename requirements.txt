@@ -1,0 +1,6 @@
+pandas
+numpy
+scikit-learn
+gemini-1.0-pro
+streamlit
+
