@@ -37,18 +37,18 @@ This system uses a **two-agent design**:
 - Requests (API calls)
 
 ## Project Structure
-DiabetesPulse/
-├── data/ # Training dataset (CSV)
-├── model/ # Trained ML model (diabetes_model.pkl)
-├── screenshots/ # Optional: App screenshots
-├── app.py # Streamlit app
-├── train_model.py # Script to train model
-├── requirements.txt # All project dependencies
-├── README.md # This file
-└── .gitignore # Ignore API keys, pycache, env
+- DiabetesPulse/
+- ├── data/ # Training dataset (CSV)
+- ├── model/ # Trained ML model (diabetes_model.pkl)
+- ├── screenshots/ # Optional: App screenshots
+- ├── app.py # Streamlit app
+- ├── train_model.py # Script to train model
+- ├── requirements.txt # All project dependencies
+  - ├── README.md # This file
+- └── .gitignore # Ignore API keys, pycache, env
 
 ## Installation
--Install dependencies: pip install -r requirements.txt
+- Install dependencies: pip install -r requirements.txt
 
 - Set API key: export GEMINI_API_KEY="your_api_key"
 
@@ -83,8 +83,12 @@ DiabetesPulse/
 
 ## Screenshots/ Preview 
 <img width="581" height="455" alt="Screenshot 1" src="https://github.com/user-attachments/assets/63bcda84-2e9f-4c6f-830d-41844c7185e2" />
+
 <img width="578" height="369" alt="Screenshot 2" src="https://github.com/user-attachments/assets/7e48c840-0938-400e-99d2-a4ca91fe6d52" />
+
 <img width="646" height="283" alt="Screenshot 3" src="https://github.com/user-attachments/assets/1f96a728-5741-4495-a778-bb083a7638de" />
+
+
 
 **⚠️ Disclaimer**
 This application is for educational purposes only and does not replace professional medical advice.
