@@ -4,14 +4,14 @@
 An **AI agent–based healthcare application** that collects basic health inputs from users, predicts diabetes risk using a trained machine learning model, and explains the result in simple language using generative AI.
 
 ## Features
-- Predicts diabetes risk probability using Random Forest
+- Predicts diabetes risk probability using **Random Forest**
 - Classifies risk (Low / Moderate / High)
 - Generates AI-based explanation in simple language
 - Provides lifestyle recommendations
-- Interactive web interface using Streamlit
+- Interactive web interface using **Streamlit**
 
 ##  Architecture
-This system uses a two-agent design:
+This system uses a **two-agent design**:
 
 1. **Prediction Agent**
    - Random Forest Classifier
@@ -32,35 +32,27 @@ This system uses a two-agent design:
 - Python
 - Pandas, NumPy
 - Scikit-learn
-- Streamlit
+- Streamlit (Interactive UI)  
 - Google Gemini 2.5 Flash (REST API)
-- Requests
+- Requests (API calls)
 
 ## Project Structure
 DiabetesPulse/
-├── data/
-├── model/
-├── app.py
-├── train_model.py
-├── requirements.txt
+├── data/ # Training dataset (CSV)
+├── model/ # Trained ML model (diabetes_model.pkl)
+├── screenshots/ # Optional: App screenshots
+├── app.py # Streamlit app
+├── train_model.py # Script to train model
+├── requirements.txt # All project dependencies
+├── README.md # This file
+└── .gitignore # Ignore API keys, pycache, env
 
------
 ## Installation
-- pip install -r requirements.txt
+-Install dependencies: pip install -r requirements.txt
 
-- Set API key:
-export GEMINI_API_KEY="your_api_key"
+- Set API key: export GEMINI_API_KEY="your_api_key"
 
-- Run:
-streamlit run app.py
-
-**⚠️ Disclaimer**
-This application is for educational purposes only and does not replace professional medical advice.
-
-## Screenshots/ Preview 
-<img width="581" height="455" alt="Screenshot 1" src="https://github.com/user-attachments/assets/63bcda84-2e9f-4c6f-830d-41844c7185e2" />
-<img width="578" height="369" alt="Screenshot 2" src="https://github.com/user-attachments/assets/7e48c840-0938-400e-99d2-a4ca91fe6d52" />
-<img width="646" height="283" alt="Screenshot 3" src="https://github.com/user-attachments/assets/1f96a728-5741-4495-a778-bb083a7638de" />
+- Run: streamlit run app.py
 
 ## Dataset Source:
 - Pima Indians Diabetes Dataset from Kaggle
@@ -73,10 +65,29 @@ This application is for educational purposes only and does not replace professio
 - Glucose: 180
 - Age: 50
 - Blood Pressure: 160
-- Pregnancy (if any):0
+
+**Output**:
+- Prediction: Diabetic
+- Risk Probability: 85%
+- AI Explanation: “Your glucose and blood pressure are high. Regular exercise and healthy eating are recommended.”
 
 ### Low Risk Example
 - Glucose: 90
 - Age: 25
 - Blood Pressure: 120
-- Pregnancy (if any):0
+
+**Output**:
+- Prediction: Not Diabetic
+- Risk Probability: 10%
+- AI Explanation: “Your health indicators are within normal range. Maintain healthy lifestyle.”
+
+## Screenshots/ Preview 
+<img width="581" height="455" alt="Screenshot 1" src="https://github.com/user-attachments/assets/63bcda84-2e9f-4c6f-830d-41844c7185e2" />
+<img width="578" height="369" alt="Screenshot 2" src="https://github.com/user-attachments/assets/7e48c840-0938-400e-99d2-a4ca91fe6d52" />
+<img width="646" height="283" alt="Screenshot 3" src="https://github.com/user-attachments/assets/1f96a728-5741-4495-a778-bb083a7638de" />
+
+**⚠️ Disclaimer**
+This application is for educational purposes only and does not replace professional medical advice.
+
+## Author
+Rohini R
