@@ -89,7 +89,7 @@ This system uses a **two-agent design**:
 
 
 
-**⚠️ Disclaimer**
+## ⚠️ Disclaimer
 This application is for educational purposes only and does not replace professional medical advice.
 
 ## Author
