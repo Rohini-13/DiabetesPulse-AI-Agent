@@ -22,7 +22,10 @@ This system uses a two-agent design:
    - Converts numeric output into human-readable explanation
 
 **Workflow:**
-User Input (Age, Glucose, BP, Pregnancies) --> Prediction Agent (ML Model) --> Explanation Agent (Gemini API) --> Streamlit UI Display
+User Input (Age, Glucose, BP, Pregnancies) 
+- Prediction Agent (ML Model)
+- Explanation Agent (Gemini API)
+- Streamlit UI Display
 
 ## Tech Stack
 - Python
